@@ -1,0 +1,386 @@
+html
+{
+   scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+ }
+ .container{
+
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    padding: 0 8%;
+    position: relative;
+    margin-top: 20px;
+ }
+ nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+ }
+ ul li a{
+   text-decoration: none;
+   color: white;
+ }
+ 
+ nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+ }
+ nav ul li {
+    color:yellow;
+    text-decoration: none;
+    position: relative;
+ }
+ nav ul li a::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translatex(-50%);
+    background: white;
+    transition: width 0.7s;
+ }
+ nav ul li a:hover::after{
+     width: 100%;
+ }
+ .ul li a{
+   color: #4971ff;
+ }
+ .logo{
+   width: 250px;
+   cursor: pointer;
+   padding-bottom:100px -150px;
+   position:absolute;
+   
+ }
+ .img1{
+   width: 100%;
+   height: 800px;
+   margin-left:-102px;
+   position: absolute;  
+   opacity:1;
+   margin-top: -15px;
+ }
+ .content{
+   color:black;
+   margin-top: 250px;
+   border: 2px solid black;
+   width: 250px;
+   margin-left: 550px;
+   text-align: center;
+ }
+ 
+ div i:hover{
+   color: yellow;
+ }
+ #box1 img{
+   width:280px;
+   height:280px; 
+   border:2px solid white;
+   position: absolute;
+
+}
+#box2 img{
+   width:280px;
+   height:280px; 
+   border:2px solid white;
+   margin-left:310px; 
+   margin-top:1px;
+   position:absolute;
+   
+
+}
+#box3 img{
+   width:280px; 
+   height:280px; 
+   border:2px solid white; 
+   margin-left:620px; 
+   margin-top:1px; 
+   position: absolute;
+
+}
+#box4 img{
+   width:280px; 
+   height:280px; 
+   border:2px solid white; 
+   margin-left:930px; 
+   margin-top:1px; 
+   position:absolute;
+}
+#IMG {
+    padding: 60px;
+}
+#IMG .box img:hover{
+    width: 300px;
+    height: 300px;
+    transition: all 1s;
+
+}
+div h4::after{
+   content:'';
+   width: 0%;  
+   height:2px;
+   position: absolute;
+   bottom: -5px;
+   left: 19%;
+   transform: translatex(-50%);
+   background: white;
+   transition: width 0.7s;
+}
+div h4:hover::after{
+    width: 40%;
+}
+div h3::after{
+   content:'';
+   width: 0%;
+   height:2px;
+   position: absolute;
+   bottom: -5px;
+   left: 14%;
+   transform: translatex(-50%);
+   background: white;
+   transition: width 0.7s;
+}
+div h3:hover::after{
+    width: 30%;
+}
+.icon{
+
+  font-size: 25px;
+  margin-left: 200px;
+  color: #fff;
+  margin-top: 250px;
+
+}
+div h1:hover{
+   background-color:yellow;
+   color:black;
+}
+div b p{
+   color: white;
+   width: 250px;
+   font-size: 15px;
+   text-align: center;
+   padding: 10px 5px;
+   background-color: black;
+   border: 2px solid white;
+   transition: 0.2s;
+   
+}
+div b p:hover{
+   background-color: yellow;
+   color:black;
+   font-weight: bold;
+
+}
+
+span h3{
+
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+span h1{
+   color: #4971ff;
+   margin-left: 10px;
+}
+span p{
+
+   color: black;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+span i{
+   color:#4971ff;
+}
+span i:hover{
+
+    color:yellow;
+}
+span{
+   padding-left: 150px;
+}
+span img{
+   height: 250px;
+   width: 250px;
+   border: 2px solid black;
+   padding: 5px;
+   margin-left: 10px;
+   
+}
+div h5 p{
+   color: white;
+   width: 120px;
+   font-size: 15px;
+   text-align: center;
+   background-color: black;
+   padding: 7px;
+}
+div h5 p:hover{
+   background-color: yellow;
+   color:black;
+}
+div u img{
+   height: 250px;
+   width: 250px;
+   margin-top: 50px;
+   margin-left: 50px;
+}
+ u h1{
+
+    text-align: center;
+    color: black;
+    background-color: yellow;
+}
+span nav{
+   background-color: white;
+   height: 250px;
+   width: 350px;
+   border: 2px solid #ffb126;
+   margin-top: 150px;
+   margin-left: 50px;
+   padding: 50px;
+}
+span nav  i{
+   color: yellow;
+   margin-top: -200px;
+   font-size: 20px;
+}
+span nav p {
+   color: black;
+   font-size: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align:center;
+}
+span nav:hover{
+   box-shadow: 5px 5px 15px gray;
+   transition: all 1s;
+}
+div label{
+    font-size: 25px;
+    color: black;
+    margin-left: 450px;
+}
+div input{
+   font-size: 25px;
+   border: 2px solid black;
+   border-radius: 50px;
+   margin: 10px;
+}
+div button{
+    height: 30px;
+    width: 170px;
+    font-size: 20px;
+    margin-left: 560px;
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+}
+div button:hover{
+   background-color: #4971ff;
+   color: #fff;
+}
+span u img{
+   margin-top: -350px;
+   position: absolute;
+   height: 550px;
+   width: 700px;
+   border:none;
+}
+span u p{
+
+   margin-left: 400px;
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: -50px;
+
+}
+span u i img{
+    margin-left:400px; 
+    height: 380px; 
+    margin-top: -360px;
+    border: 2px solid black;
+    padding: 10px;
+    z-index: -1; 
+
+}
+
+nav ul {
+   list-style: none;
+   position: relative;
+}
+
+nav li {
+   display: inline;
+   margin: 0 15px;
+   position: relative;
+}
+
+nav a {
+   text-decoration: none;
+   color: white;
+   transition: color 0.3s;
+}
+
+nav a:hover {
+   color: yellow;
+}
+
+.sub-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: -5px;
+   background-color:black;
+   z-index: 1;
+}
+
+nav li:hover .sub-menu {
+   display: block;
+}
+.sub-menu li {
+   width: 150px;
+}
+
+.sub-menu a {
+   display: block;
+   padding: 10px;
+   color: white;
+   text-align: left;
+}
+
+.sub-menu a:hover {
+   background-color: #555;
+}
+span img:hover{
+       
+   border: yellow;
+   border-radius: 50px;
+}
+div iframe{
+
+   border: 2px solid black;
+}
+a i{
+   font-size: 50px;
+   margin-left: 1250px;
+   color: black;
+}
+
